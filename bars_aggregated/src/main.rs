@@ -55,7 +55,7 @@ async fn main() {
             }
         }
         Err(e) => {
-            error!("Orders API response cannot be parsed! {}", e)
+            error!("API response cannot be parsed! {}", e)
         }
     };
 
@@ -79,7 +79,7 @@ async fn main() {
             }
         }
         Err(e) => {
-            error!("Orders API response cannot be parsed! {}", e)
+            error!("API response cannot be parsed! {}", e)
         }
     };
 }
